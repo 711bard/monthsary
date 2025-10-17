@@ -1,7 +1,12 @@
 body {
+  visibility: hidden;
+}
+
+body {
   font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
   margin: 0;
-  background: #f4e9d8; /* コルクボード風 */
+  background: #f4e9d8;
+  /* コルクボード風 */
   color: #444;
   text-align: center;
 }
@@ -9,7 +14,7 @@ body {
 .hero {
   padding: 60px 20px;
   background: #fffaf0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .hero h1 {
@@ -19,11 +24,13 @@ body {
 
 .wrapper {
   display: flex;
-  flex-direction: column; /* 上から順番に並べる */
-  gap: 100px; /* 間隔 */
+  flex-direction: column;
+  /* 上から順番に並べる */
+  gap: 100px;
+  /* 間隔 */
   margin-top: 100px;
   margin-bottom: 100px;
-} 
+}
 
 /* 奇数：左寄せ */
 .wrapper div:nth-of-type(odd) {
@@ -44,7 +51,7 @@ body {
   padding: 12px;
   padding-top: 15px;
   border-radius: 6px;
-  box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
   transform: rotate(-2deg);
   position: relative;
   width: 270px;
@@ -60,19 +67,22 @@ body {
   position: absolute;
   top: -10px;
   left: calc(50% - 10px);
-  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-.photo-card:nth-of-type(1):before{
+.photo-card:nth-of-type(1):before {
   background: radial-gradient(circle at center, rgb(231, 194, 223) 30%, rgb(241, 128, 233) 70%);
 }
-.photo-card:nth-of-type(2):before{
+
+.photo-card:nth-of-type(2):before {
   background: radial-gradient(circle at center, rgb(255, 154, 154) 30%, rgb(255, 89, 89) 70%);
 }
-.photo-card:nth-of-type(3):before{
+
+.photo-card:nth-of-type(3):before {
   background: radial-gradient(circle at center, rgb(139, 185, 250) 30%, rgb(31, 61, 196) 70%);
 }
-.photo-card:nth-of-type(4):before{
+
+.photo-card:nth-of-type(4):before {
   background: radial-gradient(circle at center, rgb(236, 236, 132) 30%, rgb(188, 202, 26) 70%);
 }
 
@@ -91,10 +101,10 @@ body {
   position: relative;
   padding: 100px 0;
   color: white;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.8);
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
   background-size: cover;
   background-position: center top;
-  background-attachment: scroll; /* スクロールしても奥に残る感じ */
+  background-attachment: scroll;
 }
 
 
@@ -103,7 +113,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.10);
+  background: rgba(0, 0, 0, 0.10);
   z-index: 0;
 }
 
@@ -116,7 +126,7 @@ body {
   text-shadow:
     0 0 1px #09478e,
     0 0 3px #061d38,
-    1px 1px 2px rgba(255,255,255,0.3);
+    1px 1px 2px rgba(255, 255, 255, 0.3);
   width: 100%;
 }
 
