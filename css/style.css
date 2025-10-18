@@ -120,9 +120,11 @@ body {
 .memory.letter {
   background-image: url("../img/hutari.JPG");
   padding: 150px 0;
-  font-family: "Comic Sans MS", "Chalkboard SE", "Patrick Hand", cursive;
+  font-family: "font-family: SF Pro JP, SF Pro Display, SF Pro Icons, Hiragino Kaku Gothic Pro, ヒラギノ角ゴ Pro W3, メイリオ, Meiryo, ＭＳ Ｐゴシック, Helvetica Neue, Helvetica, Arial, sans-serif"; 
+  line-height: 1.25;
   font-size: 1.3rem;
   line-height: 1.8;
+  /* color:#fffaf0; */
   text-shadow:
     0 0 1px #09478e,
     0 0 3px #061d38,
